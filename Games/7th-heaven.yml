@@ -1,0 +1,29 @@
+Name: 7th Heaven
+Description: Modding platform for Final Fantasy 7
+Arch: win64
+
+Installers:
+- [ steam ]
+
+Dependencies:
+- vcredist2019
+- dotnet48
+- d3dcompiler_43
+- d3dcompiler_47
+
+Parameters:
+  dxvk: false
+  sync: esync
+  discrete_gpu: true
+  
+Executable:
+  name: 7th Heaven
+  icon: 7th.png
+  file: 7th Heaven.exe
+  path: Program Files (x86)/7th Heaven/7th Heaven.exe
+  
+Steps:
+- action: install_exe
+  file_name: 7thHeaven-v2.4.0.0_Release.exe
+  url: https://github.com/tsunamods-codes/7th-Heaven/releases/download/2.4.0/7thHeaven-v2.4.0.0_Release.exe
+  file_checksum: d7646ff9cd55e9506817d0cc51e0e51c
