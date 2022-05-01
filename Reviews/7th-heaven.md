@@ -12,41 +12,43 @@ Grade: Platinum
 Additional notes: n/a
 
 **Does it show graphical glitches?**  
-Grade: Bronze  
-Additional notes: UI is just a black screen if DXVK is enabled. Hovering over UI elements temporarily draws them, but ultimately goes black again.
+Grade:   
+Additional notes: As long as DXVK is off - none
 
 **Does it require some tweaking in order to work properly? (Out of normal software configuration)**  
-Grade: Bronze  
-Additional notes: 
+Grade:   
+Additional notes:
 
-* FF7 is not automatically installed - Either the 1998 CDs or via Steam ( included by default )
-* When using Steam edition of FF7, an ISO at `<bottles prefix>/Program Files (x86)/7th Heaven/Resources/FF7DISC.ISO` must be manually mounted.
-* With Flatpak, need to ensure that the mounted dir is accessible with FlatSeal.
+DXVK must be disabled. Must be toggled on and back off
 
 **Did it crash during tests execution?**  
-Grade: Bronze
-Additional notes: Fails to launch with mods, if caffe is used. Workaround usually used in app for Windows ( "Code 5 Fix" in settings ) is non-functional. Stick to Vaniglia
+Grade: 
+Additional notes:
+
+Fails to launch with mods, if caffe is used. Workaround usually used in app for Windows ( "Code 5 Fix" in settings ) is non-functional. Stick to Vaniglia.
+
+Game always crashes first time - Game needs to be launched for the first time, before being able to change Graphics API to something compatible
 
 **Is it usable?**  
-Grade: Bronze  
+Grade:   
 Additional notes: as long as DXVK is disabled & Vaniglia runtime is used.
 
 **Final grade? (the lower evaluation from previous questions)**  
-Grade: Bronze  
+Grade:   
 Additional notes: n/a
 
 **Additional notes**
 Using the 1998 CD is untested.
 
-Install is not silent.
+DXVK must be disabled for 7th heaven to function.
 
-FF7 is not automatically installed - Either the 1998 CDs or via Steam
+`start` method may fail - Steam doesn't register it until the first time it is launched
+
+Install is not silent, as Steam doesn't provide a way to install a game silently.
 
 Recommended settings to tweak once installed:
-* Game Driver ( will need to launch vanilla for the first time before you can set these ):
-* * set `Graphics API` to `DirectX 12`( Game appears to always crash without this )
-* * Set `Music Option` to `VGMStream` ( No music without this )
-* Game Launcher:
-* * `Do not auto mount Disk` (This is non-functional)
-* * Set `Auto-Mount Game Disk` to `off`
-* * Set `Auto-Dismount Game Disk` to `off`
+
+Game Driver ( will need to launch vanilla for the first time before you can set these ):
+
+* set `Graphics API` to `DirectX 12`( Game appears to always crash without this )
+* Set `Music Option` to `VGMStream` ( No music without this )
