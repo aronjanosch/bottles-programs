@@ -119,6 +119,14 @@ fusion360:
  Icon: fusion360.png
  Event: fusion360.exe
 
+7th-heaven:
+  Arch: win64
+  Name: 7th Heaven
+  Description: Modding Platform for Final Fantasy 7
+  Grade: Bronze
+  Category: Games
+  Icon: 7th.png
+
 #rockstar:
 #  Arch: win64
 #  Name: Rockstar Launcher
