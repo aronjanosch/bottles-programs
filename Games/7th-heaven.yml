@@ -20,7 +20,7 @@ Executable:
   name: 7th Heaven
   icon: 7th.png
   file: 7th Heaven.exe
-  path: Program Files (x86)/7th Heaven/7th Heaven.exe
+  path: Program Files/7th Heaven/7th Heaven.exe
   
 Steps:
 # Configure Virtual CD
@@ -36,7 +36,6 @@ Steps:
     - command: start steam://install/39140
 # Install 7th Heaven
 - action: install_exe
-  file_name: 7thHeaven-v2.4.0.0_Release.exe
-  url: https://github.com/tsunamods-codes/7th-Heaven/releases/download/2.4.0/7thHeaven-v2.4.0.0_Release.exe
-  file_checksum: d7646ff9cd55e9506817d0cc51e0e51c
+  file_name: 7thHeaven-v2.6.1.0_Release.exe
+  url: https://github.com/tsunamods-codes/7th-Heaven/releases/download/2.6.1/7thHeaven-v2.6.1.0_Release.exe
   arguments: /VERYSILENT
